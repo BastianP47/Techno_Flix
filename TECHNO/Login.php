@@ -1,4 +1,4 @@
- <!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -37,15 +37,42 @@
     <link href="css/signin.css" rel="stylesheet">
   </head>
 <body class="text-center">
+  <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <style>
+            .navbar {
+                background-color: rgb(84, 84, 83) !important;
+            }
+    </style>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.php">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="registro.php">Registrarse</a>
+          </li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+</header> <br> <br> <br> <br><br> <br>
+   <img src="https://media.discordapp.net/attachments/976202916710989847/976625936915124284/unknown.png" width="300" height="150">
   <div class="Caja">
    <form action="validar.php" method="post">
    <h1 class="animate__animated animate__backInLeft">Iniciar Sesión</h1>
+   <div class="form-floating">
    <p class="blanco">Usuario <input type="text" placeholder="Ingrese su nombre" name="usuario"></p>
-   <p class="blanco">Contraseña <input type="password" placeholder="Ingrese su contraseña" name="password"></p>
+   <p class="blanco">Contraseña <input type="password" placeholder="Ingrese su contraseña" name="password"></p> 
+   <p class="negro"> Tipo de usuario</p>
+
+   
    <input class="btn btn-success" type="submit" value="Ingresar">
-  <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="registro.php">Registrarse</a>
-          </li>
+  
    
    </form>
 </div> 

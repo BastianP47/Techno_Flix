@@ -55,22 +55,16 @@
             }
     </style>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="inicio.php">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Login.php">Iniciar Sesion</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Catalogo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Carrito</a>
-            
+            <a class="nav-link" href="registro.php">Registrar Usuario</a>
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-          <button class="btn white" type="submit" style=color=#212529>Confirmar</button>
         </form>
       </div>
     </div>
@@ -93,7 +87,6 @@
           <div class="carousel-caption text-start">
             <h1>Bienvenido a Techno🕹️Flix</h1>
             <p>Tu pagina para personalizar y adquirir perifericos a tu gusto</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Diseño Propio</a></p>
           </div>
         </div>
       </div>
@@ -104,7 +97,6 @@
           <div class="carousel-caption">
             <h1>Tu pagina para personalizar perifericos a tu gusto</h1>
             <p>Tu creatividad al alcance de un accesorio</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Ver mas</a></p>
           </div>
         </div>
       </div>
@@ -116,7 +108,6 @@
           <div class="carousel-caption text-end">
             <h1>No te quedes sin el tuyo!</h1>
             <p>Complementa tus accesorios con nuestros productos</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Me interesa</a></p>
           </div>
         </div>
       </div>
@@ -144,21 +135,18 @@
         <img src ="images/celulares.gif" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="gif" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
         <h2>Carcasas</h2>
         <p>Carcasas de Celular personalizadas personalmente, con diseños unicos</p>
-        <p><a class="btn btn-secondary" href="#">Ver Mas&raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       
       <div class="col-lg-4">
         <img src="images/controlxbox.gif" width="170" height="150"  role="gif" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
         <h2>Mandos de Xbox </h2>
         <p>Controles de la consola xbox (360,one,x-s series) personalizados con diseños unicos</p>
-        <p><a class="btn btn-secondary" href="#">Ver Mas &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
 
         <img src ="images/controlplay.gif" width="350" height="160" xmlns="http://www.w3.org/2000/svg" role="gif" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
         <h2>Mandos de Play</h2>
         <p>Controles de la consola Playstation(3,4,5) personalizados con diseños unicos</p>
-        <p><a class="btn btn-secondary" href="#">Ver Mas&raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
